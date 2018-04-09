@@ -11,8 +11,8 @@ public class MoneyLogin extends javax.swing.JFrame {
     PreparedStatement ps=null;
     ResultSet rs=null;
     String sql="Select * from bankinfo";
-    String user=;
-    String password=;
+    String user="remoteUser";
+    String password="password";
     String query;
     String userInput;
     String passwordInput;
